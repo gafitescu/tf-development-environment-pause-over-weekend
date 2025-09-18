@@ -35,6 +35,10 @@ override.tf.json
 # Lock files (usually auto-generated, can be environment specific)
 .terraform.lock.hcl
 
+# Lambda build artifacts
+lambda_function.zip
+lambda/__pycache__/
+
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
